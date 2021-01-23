@@ -1,0 +1,57 @@
+{
+    "category": "plugins",
+    "display": "Send Email (HTML / MJML)",
+    "fields": {
+        "AAE": {
+            "caption": "to",
+            "editor": "DynamicValue",
+            "name": "to",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "from",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "from",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "subject",
+            "editor": "DynamicValue",
+            "name": "subject",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "text",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "optional": false,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "html",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "html",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "mjml",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "mjml",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

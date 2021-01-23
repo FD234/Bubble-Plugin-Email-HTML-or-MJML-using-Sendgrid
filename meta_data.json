@@ -1,0 +1,9 @@
+{
+    "categories": {
+        "0": "email"
+    },
+    "description": "Easy emailing using html or mjml",
+    "image": "//s3.amazonaws.com/appforest_uf/f1609603946266x982705828072115200/1f5c79832b4d0fddf889e3fc956a992c.jpg",
+    "license": "open_source",
+    "name": "Email HTML (or MJML) using Sendgrid"
+}
